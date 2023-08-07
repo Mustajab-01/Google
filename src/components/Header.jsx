@@ -8,7 +8,7 @@ const Header = () => {
             <button className='rounded-full hover:bg-gray-200 transition-all ease-in-out duration-500 p-2 text-xl'>
                 <TbGridDots />
             </button>
-            <button className='bg-indigo-500 hover:bg-indigo-700 text-white px-6 py-2 rounded-lg transition-all ease-in-out duration-500 font-bold text-sm'>Sign in</button>
+            <button className='bg-blue-500 hover:bg-blue-700 text-white px-6 py-2 rounded-lg transition-all ease-in-out duration-500 font-bold text-sm'>Sign in</button>
         </header>
     );
 };
