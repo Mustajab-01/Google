@@ -15,8 +15,12 @@ const HomeBody = () => {
                 <MdMic className='-translate-x-10 text-xl' />
             </form>
             <div className='flex items-center gap-5'>
-                <button className='px-6 py-3 bg-gray-100 hover:bg-gray-200 transition-all ease-in-out duration-500 rounded-lg text-sm font-bold shadow-md'>Google Search</button>
-                <button className='px-6 py-3 bg-gray-100 hover:bg-gray-200 transition-all ease-in-out duration-500 rounded-lg text-sm font-bold shadow-md'>I'm feeling lucking</button>
+                <button className='px-4 py-3 bg-gray-100 hover:bg-gray-200 transition-all ease-in-out duration-500 rounded-lg text-sm font-bold shadow-md'>
+                    Google Search
+                </button>
+                <button className='px-4 py-3 bg-gray-100 hover:bg-gray-200 transition-all ease-in-out duration-500 rounded-lg text-sm font-bold shadow-md'>
+                    I'm feeling lucky
+                </button>
             </div>
         </section>
     );
